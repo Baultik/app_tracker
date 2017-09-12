@@ -6,13 +6,21 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Application tracker</title>
-
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/3.6.6/firebase.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.js"></script>    
+    <script src="https://www.gstatic.com/firebasejs/4.3.1/firebase.js"></script>
     <script src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
+    <script src="src/firebase.js"></script>
+    <script src="src/main.js"></script>
+    <script src="src/components/app/app.component.js"></script>
+    <script src="src/components/infoForm/info-form.component.js"></script>
+    <script src="src/components/tracker/tracker.component.js"></script>
 </head>
 <body>
-    <app></app>
+    <app>
+        <info-form></info-form>
+        <tracker></tracker>
+    </app>
 </body>
 </html>
